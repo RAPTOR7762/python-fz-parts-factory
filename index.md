@@ -19,7 +19,7 @@ pip install PySide6
 With the PySide6 library installed, cd to the location where you have stored the scripts, and run
 
 ```
-python pythonpartsfactory.py
+python partsfactory.py
 ```
 
 You need to change the parameters
