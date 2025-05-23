@@ -1,3 +1,3 @@
 ## python-fz-parts-factory
 
-Gor more information please go to the repository's website. Thank you.
+For more information please go to the [repository's website](raptor7762.github.io/python-fz-parts-factory/). Thank you.
