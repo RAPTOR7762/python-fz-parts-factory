@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 
-# Constant values for the parts factory.
+## Constant values for the parts factory.
+
+# For warning message later
+
+import sys
 
 # part types
 
@@ -83,3 +87,9 @@ BREADBOARD = "breadboard"
 SCHEMATIC = "schematic"
 PCB = "pcb"
 
+# Warning message
+
+if __name__ == "__main__":
+  print("This file only has constants and variables.")
+  print("Please run 'partsfactory.py' instead")
+  sys.exit()
