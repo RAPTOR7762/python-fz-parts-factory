@@ -11,7 +11,7 @@ body:
     attributes:
       label: What happened?
       description: Please describe the bug.
-      placeholder: When I
+      value: When I
     validations:
       required: true
   - type: textarea
@@ -19,7 +19,7 @@ body:
     attributes:
       label: Error Message (if any)
       description: Paste Error message as code
-      placeholder: |
+      value: |
         I get this error message:
         ```
         (paste error message here)
@@ -31,7 +31,7 @@ body:
     attributes:
       label: What are the steps to reproduce?
       description: Please describe the steps to reproduce the bug.
-      placeholder: |
+      value: |
         1. <!--Step 1-->
         2. <!--Step 2-->
         3. <!--Step 3-->
@@ -44,6 +44,6 @@ body:
     attributes:
       label: Expected Behaviour
       description: Please describe the behavior you expect
-      placeholder: I expect that
+      value: I expect that
     validations:
       required: true
