@@ -1,5 +1,6 @@
 ![License](https://img.shields.io/github/license/RAPTOR7762/python-fz-parts-factory)
 ![Version](https://img.shields.io/badge/version-v0.0.1a-orange)
+![Language](https://img.shields.io/badge/language-python-blue)
 
 ## python-fz-parts-factory
 
