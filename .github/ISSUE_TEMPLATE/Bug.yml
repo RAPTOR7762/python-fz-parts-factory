@@ -1,0 +1,49 @@
+name: Bug Template
+description: Use this template if you are reporting a bug
+labels: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: What happened?
+      description: Please describe the bug.
+      placeholder: When I
+    validations:
+      required: true
+  - type: textarea
+    id: error-message
+    attributes:
+      label: Error Message (if any)
+      description: Paste Error message as code
+      placeholder: |
+        I get this error message:
+        ```
+        (paste error message here)
+        ```
+    validations:
+      required: false
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: What are the steps to reproduce?
+      description: Please describe the steps to reproduce the bug.
+      placeholder: |
+        1. <!--Step 1-->
+        2. <!--Step 2-->
+        3. <!--Step 3-->
+
+        <!--You may add as many steps as you like-->
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behaviour
+      description: Please describe the behavior you expect
+      placeholder: I expect that
+    validations:
+      required: true
